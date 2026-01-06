@@ -1,13 +1,13 @@
 # Roteiro do Portfólio — marcelomess
 
 ## TL;DR
-Criar um portfólio público que destaque 4 projetos (fastapi_zero, goexpert, goexpert-client-server-api, marcelomess), com READMEs ricos, assets, CI simples e deploy via GitHub Pages.
+Criar um portfólio público que destaque 5 projetos (fastapi_zero, goexpert, goexpert-client-server-api, freelancer-management-system, marcelomess), com READMEs ricos, assets, CI simples e deploy via GitHub Pages.
 
 ## Passos (ordem e estimativa)
 
 1. **Escrever README raiz com banner, resumo e contatos** (3-4h)
    - Adicionar seção "Sobre" com título profissional e stack
-   - Listar 4 projetos destacados com links
+   - Listar 5 projetos destacados com links
    - Incluir contatos (LinkedIn, e-mail, GitHub)
    - Adicionar comandos básicos de execução
 
@@ -34,29 +34,35 @@ Criar um portfólio público que destaque 4 projetos (fastapi_zero, goexpert, go
    - GIF demonstrando comunicação
    - Adicionar topics: `go`, `client-server`, `api`, `distributed-systems`
 
-6. **Atualizar README do repositório do portfólio (`marcelomess`)** (1-2h)
+6. **Atualizar README de freelancer-management-system** (2-3h)
+   - Descrição do sistema de gerenciamento de freelancers
+   - Comandos Docker para executar
+   - Screenshots da aplicação
+   - Adicionar topics: `freelancer`, `management`, `system`, `backend`, `api`
+
+7. **Atualizar README do repositório do portfólio (`marcelomess`)** (1-2h)
    - Expandir seção "Sobre"
    - Adicionar badges (build, license)
    - Incluir chamada para ação (CTA)
 
-7. **Configurar GitHub Pages** (3-6h)
+8. **Configurar GitHub Pages** (3-6h)
    - Escolher gerador: Jekyll (rápido) ou Astro/Next.js (flexível)
    - Criar `index.html` ou configurar Jekyll
    - Adicionar `homepage` no settings do repo
    - Configurar domínio customizado (opcional)
 
-8. **Configurar CI básico (GitHub Actions)** (4-8h)
+9. **Configurar CI básico (GitHub Actions)** (4-8h)
    - Criar `.github/workflows/ci.yml` para 2 repositórios
    - Lint + test + build para Python (fastapi_zero)
    - Lint + test + build para Go (goexpert projetos)
    - Adicionar badges de status nos READMEs
 
-9. **Varredura por segredos no histórico** (1-3h)
+10. **Varredura por segredos no histórico** (1-3h)
    - Instalar e rodar `git-secrets` ou `gitleaks`
    - Verificar histórico de commits
    - Remover/rotacionar credenciais se encontradas (usar BFG Repo-Cleaner)
 
-10. **Publicar e validar SEO** (1-2h)
+11. **Publicar e validar SEO** (1-2h)
     - Adicionar descrições nos repositórios
     - Configurar topics em todos os repos
     - Adicionar badges (build, coverage, license)
@@ -65,8 +71,8 @@ Criar um portfólio público que destaque 4 projetos (fastapi_zero, goexpert, go
 ## Checklist técnico (execução)
 
 - [ ] Criar/editar `README.md` raiz
-- [ ] Criar `assets/` com: `banner.png`, `screenshot-fastapi.png`, `screenshot-go.png`
-- [ ] Atualizar READMEs dos 4 repositórios destacados (descrição, run, screenshot)
+- [ ] Criar `assets/` com: `banner.png`, `screenshot-fastapi.png`, `screenshot-go.png`, `screenshot-freelancer.png`
+- [ ] Atualizar READMEs dos 5 repositórios destacados (descrição, run, screenshot)
 - [ ] Adicionar `topics` via GitHub UI (ex: go, python, fastapi, api)
 - [ ] Configurar GH Pages e adicionar sitemap/robots
 - [ ] Adicionar badges (build, coverage, license) nos READMEs

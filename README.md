@@ -22,6 +22,9 @@ Exercícios e projetos do curso Full Cycle Go Expert. Demonstra conhecimento em 
 ### [Client-Server API](https://github.com/marcelomess/goexpert-client-server-api)
 Implementação de arquitetura cliente/servidor em Go, exemplificando sistemas distribuídos e comunicação entre serviços.
 
+### [Freelancer Management System](https://github.com/marcelomess/freelancer-management-system)
+Sistema de gerenciamento de freelancers com backend robusto, demonstrando arquitetura escalável e boas práticas de desenvolvimento.
+
 ### [Portfolio](https://github.com/marcelomess/marcelomess)
 Este repositório — site e blog técnico para compartilhar projetos e conhecimento.
 
