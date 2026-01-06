@@ -1,13 +1,15 @@
 # Marcelo Messias — Portfolio
 
-Olá! Sou Marcelo Messias, desenvolvedor de software focado em **backend e APIs** com Go e Python. Construo APIs escaláveis, automação de testes e integrações cliente/servidor.
+Olá! Sou Marcelo Messias, desenvolvedor de software focado em **backend e APIs** com PHP, Laravel, Python, Go e Vue.js. Construo aplicações web escaláveis, APIs REST robustas e automação de testes.
 
 ## Stack Principal
 
-- **Linguagens:** Go, Python
-- **Frameworks:** FastAPI, Gin
-- **Ferramentas:** Docker, GitHub Actions, PostgreSQL
-- **Práticas:** TDD, CI/CD, Arquitetura de APIs REST
+- **Linguagens:** PHP, Python, Go, JavaScript/TypeScript
+- **Frameworks Backend:** Laravel, FastAPI, Gin
+- **Frameworks Frontend:** Vue.js
+- **Bancos de Dados:** PostgreSQL, MySQL, SQLite
+- **Ferramentas:** Docker, GitHub Actions, Composer, npm
+- **Práticas:** TDD, CI/CD, Arquitetura de APIs REST, MVC
 
 ## Projetos Destacados
 
